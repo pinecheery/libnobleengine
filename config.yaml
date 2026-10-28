@@ -1,0 +1,7 @@
+module.exports = {
+  semi: false,
+  singleQuote: true
+}
+name: demo
+language: nodejs
+version: 1.0.0
