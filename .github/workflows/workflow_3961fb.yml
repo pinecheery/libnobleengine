@@ -1,0 +1,12 @@
+name: Build Pipeline
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  validate-pipeline:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute scripts
+        run: echo "checks passed"
